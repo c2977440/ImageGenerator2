@@ -226,7 +226,7 @@ public class MainActivity extends AppCompatActivity {
         }
     }
 
-    private void saveImage() {
+    void saveImage() {
         try {
             validateInputs();
 
@@ -481,7 +481,7 @@ public class MainActivity extends AppCompatActivity {
         clearButton.setOnClickListener(v -> clearAllInputs());
     }
 
-    private void updateTextDisplay() {
+    void updateTextDisplay() {
 
         // 在清除之前保存現有元素的位置和大小
         for (int i = 0; i < textContainer.getChildCount(); i++) {
